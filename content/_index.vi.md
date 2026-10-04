@@ -13,7 +13,7 @@ chapter: false
 
 &emsp; **Email:** nguyentrongduc447@gmail.com
 
-&emsp; **Trường:** Đại học Giao thông Vận tải
+&emsp; **Trường:** Trường Đại học Giao thông vận tải Thành phố Hồ Chí Minh (UTH)
 
 &emsp; **Ngành:** Công nghệ thông tin
 

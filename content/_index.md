@@ -15,7 +15,7 @@ chapter: false
 
 &emsp; **Email:** nguyentrongduc447@gmail.com
 
-&emsp; **University:** University of Transport and Communications
+&emsp; **University:** Ho Chi Minh City University of Transport (UTH)
 
 &emsp; **Major:** Information Technology
 
