@@ -23,7 +23,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 28/09/2026
 
-![Ảnh đại diện của bạn](/images/avatar.png)
+{{< avatar alt="Ảnh đại diện" >}}
 
 
 
