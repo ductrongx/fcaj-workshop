@@ -1,0 +1,13 @@
+# Tam an cac phan chua can viet; giu nguyen noi dung de su dung sau.
+# Hugo tu dong doc file nay khi chay hugo hoac hugo server.
+# Xoa dong tuong ung de hien lai phan do.
+ignoreFiles = [
+  # Chi hien tuan 1 va Event 1 trong giai doan hien tai.
+  '[/\\]1-Worklog[/\\]1\.([2-9]|1[0-2])-Week([2-9]|1[0-2])([/\\]|$)',
+  '[/\\]4-EventParticipated[/\\]4\.2-Event2([/\\]|$)',
+  '[/\\]2-Proposal([/\\]|$)',
+  '[/\\]3-BlogsPosted([/\\]|$)',
+  '[/\\]5-Workshop([/\\]|$)',
+  '[/\\]6-Self-evaluation([/\\]|$)',
+  '[/\\]7-Feedback([/\\]|$)',
+]
