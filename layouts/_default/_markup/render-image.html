@@ -1,5 +1,13 @@
 {{- $destination := .Destination -}}
+{{- $isPortrait := false -}}
+{{- if and (hasPrefix .Destination "/") (in (slice ".jpg" ".jpeg" ".png" ".gif" ".webp") (lower (path.Ext .Destination))) -}}
+  {{- $imagePath := printf "static%s" .Destination -}}
+  {{- if fileExists $imagePath -}}
+    {{- $imageConfig := images.Config $imagePath -}}
+    {{- $isPortrait = gt $imageConfig.Height $imageConfig.Width -}}
+  {{- end -}}
+{{- end -}}
 {{- if hasPrefix $destination "/" -}}
   {{- $destination = strings.TrimPrefix "/" $destination | relURL -}}
 {{- end -}}
-<img src="{{ $destination | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+<img src="{{ $destination | safeURL }}" alt="{{ .Text }}"{{ if $isPortrait }} class="portrait-photo"{{ end }}{{ with .Title }} title="{{ . }}"{{ end }}>
