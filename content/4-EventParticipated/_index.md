@@ -1,30 +1,21 @@
 ---
 title: "Events Participated"
-date: 2024-01-01
+date: 2026-09-26
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
+This section records the events I have attended during my First Cloud AI Journey, including knowledge, experiences, and lessons that can support my internship.
 
-So far, I have participated in one event during my internship.
+### [Event 1: Buildrathon Kickoff](4.1-event1/)
 
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+**Event:** Buildrathon Kickoff: Code the Future with CMC Global — FCAJ Buildrathon 2026 (Season 01)
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+**Date and time:** September 26, 2026, 09:00 – 12:00
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+**Location:** AWS Vietnam office, 26th floor, Bitexco Financial Tower, Ho Chi Minh City
 
-&emsp;**Role:** Attendee  
+**Role:** Attendee
 
+The kickoff introduced the Buildrathon journey, the “The Thinking Behind Building The Bot” talkshow, and a mock-interview session with CMC Global. It helped me understand AI agent architecture, deployment considerations, and how cloud knowledge can support building practical products.

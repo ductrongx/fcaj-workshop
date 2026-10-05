@@ -1,122 +1,108 @@
 ---
 title: "Event 1"
-date: 2024-01-01
+date: 2026-09-26
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Event Report: Buildrathon Kickoff — Code the Future with CMC Global
+
+**Event:** Buildrathon Kickoff: Code the Future with CMC Global — FCAJ Buildrathon 2026 (Season 01)
+
+**Date and time:** Saturday, September 26, 2026, 09:00 – 12:00
+
+**Location:** AWS Vietnam office, 26th floor, Bitexco Financial Tower, Ho Chi Minh City
+
+**Role:** Attendee
+
+**Organizers:** AWS Study Group / First Cloud AI Journey (FCAJ), in collaboration with CMC Global.
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+The event launched FCAJ Buildrathon 2026 (Season 01), bringing members of the Cloud and AI community together to build practical products on AWS. It introduced the Buildrathon journey, shared experience with deploying AI agents in enterprises, and provided opportunities to connect with experts from FCAJ and CMC Global.
+
+For me, it was an opportunity to explore how cloud computing and AI can address a specific problem and to prepare my approach to learning and teamwork for the internship.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Thien Lu** — Program Manager, First Cloud AI Journey (FCAJ).
+- **Phong Pham** — Program Manager, First Cloud AI Journey (FCAJ).
+- **Bui Nhat Truong (Truong Bui)** — Technical Leader, CMC Global; speaker for “The Thinking Behind Building The Bot”.
+
+### Event Agenda
+
+| Time | Session |
+| --- | --- |
+| 09:00 – 09:30 | Buildrathon kickoff and program introduction |
+| 09:30 – 11:15 | Talkshow: “The Thinking Behind Building The Bot” |
+| 11:15 – 12:00 | Mock-interview with CMC Global |
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Building Practical Products through Buildrathon
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+The program introduced a six-month Buildrathon journey focused on applying Cloud and AI knowledge to products with practical value. My takeaway was that a product needs to be evaluated for its ability to solve a problem, its stability, and its potential to develop beyond the demo stage.
 
-#### Transitioning to modern application architecture – Microservices
+This helped me connect learning individual AWS services with designing a complete system. A team should start with user needs and requirements before deciding how to organize data, processing, and deployment.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+#### “The Thinking Behind Building The Bot”: Designing AI Agents
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+Bui Nhat Truong's session explored how to structure an AI agent system. It helped me understand the roles of three components:
 
-#### Domain-Driven Design (DDD)
+- **Planning:** breaking a request into steps that serve the intended goal.
+- **Memory:** maintaining context within a session and managing information needed across sessions.
+- **Tools:** connecting to APIs, data sources, or functions to perform tasks using actual data.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+Enterprise agents also need to connect with knowledge sources and internal services. Data flows, access boundaries, and control over agent actions therefore need attention from the beginning of the design process.
 
-#### Event-Driven Architecture
+#### Preparing AI Systems for Operation
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+The session discussed balancing **accuracy, response time, and cost** when selecting models and designing processing flows.
 
-#### Compute Evolution
+I also noted several concerns to address before deployment:
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+- Checking responses to reduce unsupported information or answers inconsistent with the input data.
+- Handling failed tool calls and outputs that do not follow the expected format.
+- Logging and tracking processing steps to investigate errors.
+- Testing both common scenarios and edge cases before expanding usage.
 
-#### Amazon Q Developer
+#### Career Connections with CMC Global
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+The final mock-interview session offered attendees an opportunity to explore career expectations and preparation for technical interviews. It reminded me to practice explaining my approach to a problem and the reasoning behind technical choices alongside developing technical knowledge.
 
-### Key Takeaways
+### What I Learned
 
-#### Design Mindset
+The event helped me understand how architecture, data, tools, and testing work together in an AI application. When designing an agent, I need to consider where its data comes from, which actions it can perform, and how each step's result can be verified.
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+I also recognized that AWS knowledge becomes more meaningful when connected to a specific problem. Studying Cloud, data, and AI within a complete processing flow helps me understand the contribution of each component.
 
-#### Technical Architecture
+For teamwork, the kickoff highlighted the value of exchanging ideas, sharing knowledge, and agreeing on goals. These are habits I want to maintain while learning with the FCAJ community.
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+### How I Plan to Apply These Lessons
 
-#### Modernization Strategy
+- **Clarify the problem before implementation:** identify users, input data, expected outcomes, and evaluation criteria.
+- **Connect AWS learning with practice:** explore how storage, processing, and access controls work together in an application.
+- **Experiment with agents incrementally:** start with a small scope and check tool use and error handling before expanding.
+- **Practice technical communication:** explain architectures, solution choices, and areas for improvement.
+- **Learn actively with the team:** discuss problems and record lessons to share with other members.
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+### My Experience
 
-### Applying to Work
+Attending the kickoff at the AWS Vietnam office with other members of the group gave me more motivation for my Cloud and AI learning journey. The discussions about enterprise AI agents helped me understand the expectations involved in building a practical product.
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+Meeting people and connecting at the event was also memorable. The session gave me direction to learn with clear goals, exchange ideas proactively, and gradually turn knowledge into products.
 
-### Event Experience
+### Event Photos
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+![Buildrathon Kickoff: Code the Future with CMC Global poster](/images/4-eventparticipated/4.1-Event1/poster.png)
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+*Figure 1: Event poster introducing the speakers, schedule, and venue.*
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+![Group check-in at the It's Still Day 1 lobby of the AWS office](/images/4-eventparticipated/4.1-Event1/its_still_day_1.jpg)
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+*Figure 2: Group check-in at the “It's Still Day 1” lobby beside the “The Thinking Behind Building The Bot” standee.*
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+![Group photo with speakers in the conference room](/images/4-eventparticipated/4.1-Event1/our_team_xom.jpg)
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+*Figure 3: Group photo with the speakers in the conference room.*
