@@ -226,3 +226,11 @@ div.notices.info p {
   border-top: 30px solid #fd9827;
   background: #fff2db;
 }
+:root #body img[src*="/images/4-eventparticipated/4.2-Event2/"] {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(100%, 420px);
+  max-height: min(560px, 75vh);
+  margin: 1.5rem auto 1rem;
+}
