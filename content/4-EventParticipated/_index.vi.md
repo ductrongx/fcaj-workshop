@@ -19,3 +19,17 @@ Phần này ghi lại các sự kiện em đã tham gia trong hành trình First
 **Vai trò:** Người tham dự
 
 Buổi kickoff giới thiệu định hướng Buildrathon, chuyên đề “The Thinking Behind Building The Bot” và hoạt động mock-interview cùng CMC Global. Qua sự kiện, em hiểu thêm về kiến trúc AI Agent, những vấn đề cần chuẩn bị khi triển khai và cách kết hợp kiến thức Cloud với việc xây dựng sản phẩm thực tế.
+
+### [Event 2: AWS Cloud & AI Day Hanoi — Watch Party: Ho Chi Minh City](4.2-event2/)
+
+**Tên sự kiện:** AWS Cloud & AI Day Hanoi - Watch Party: Ho Chi Minh City
+
+**Thời gian:** Thứ Ba, ngày 29/09/2026; nhận thẻ từ 08:00, keynote lúc 09:00 (UTC+7).
+
+**Địa điểm:** Bitexco Financial Tower, TP.HCM; đăng ký và nhận thẻ tại tầng 26 — theo dõi trực tuyến chương trình tại Hà Nội.
+
+**Vai trò:** Người tham dự
+
+**Đơn vị tổ chức:** AWS Việt Nam, cùng các nhà tài trợ và đối tác công nghệ.
+
+Sự kiện mang đến góc nhìn thực tế về Platform Engineering, hiện đại hóa ứng dụng, AI Agent, bảo mật và quản trị chi phí. Em tham dự cùng các thành viên tại TP.HCM để cập nhật kiến thức và liên hệ các kinh nghiệm triển khai với quá trình học AWS.

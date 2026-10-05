@@ -93,6 +93,10 @@ Tham gia buổi kickoff tại văn phòng AWS Việt Nam cùng các anh và các
 
 Không khí gặp gỡ và kết nối tại sự kiện cũng là một trải nghiệm đáng nhớ. Qua buổi tham dự, em có thêm định hướng để học có mục tiêu, chủ động trao đổi với mọi người và từng bước chuyển kiến thức đã học thành sản phẩm.
 
+### Minh chứng tham dự
+
+- Bài đăng LinkedIn của Xóm Data về buổi Kickoff, có tên em trong danh sách các đội tham gia: [Xem bài đăng LinkedIn](https://lnkd.in/p/ea265it3).
+
 ### Hình ảnh tham dự sự kiện
 
 ![Poster Buildrathon Kickoff: Code the Future with CMC Global](/images/4-eventparticipated/4.1-Event1/poster.png)

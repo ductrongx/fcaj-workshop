@@ -93,6 +93,10 @@ Attending the kickoff at the AWS Vietnam office with other members of the group 
 
 Meeting people and connecting at the event was also memorable. The session gave me direction to learn with clear goals, exchange ideas proactively, and gradually turn knowledge into products.
 
+### Proof of attendance
+
+- Xóm Data’s LinkedIn post about the Kickoff, with my name in the list of participating teams: [View the LinkedIn post](https://lnkd.in/p/ea265it3).
+
 ### Event Photos
 
 ![Buildrathon Kickoff: Code the Future with CMC Global poster](/images/4-eventparticipated/4.1-Event1/poster.png)
