@@ -2,8 +2,8 @@
 # Hugo tu dong doc file nay khi chay hugo hoac hugo server.
 # Xoa dong tuong ung de hien lai phan do.
 ignoreFiles = [
-  # Chi hien tuan 1; hien thi day du cac event.
-  '[/\\]1-Worklog[/\\]1\.([2-9]|1[0-2])-Week([2-9]|1[0-2])([/\\]|$)',
+  # Hien tuan 1 va 2; giu an tuan 3-12; hien thi day du cac event.
+  '[/\\]1-Worklog[/\\]1\.([3-9]|1[0-2])-Week([3-9]|1[0-2])([/\\]|$)',
   '[/\\]2-Proposal([/\\]|$)',
   '[/\\]3-BlogsPosted([/\\]|$)',
   '[/\\]5-Workshop([/\\]|$)',
