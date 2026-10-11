@@ -1,9 +1,10 @@
 ---
 title: "Worklog Tuần 2"
+menuTitle: "Week2"
 date: 2026-10-05
 weight: 2
 chapter: false
-pre: " <b> 1.2. </b> "
+pre: " <b> 1.2 </b> "
 ---
 
 ## IAM, policy và quyền tạm thời cho ứng dụng

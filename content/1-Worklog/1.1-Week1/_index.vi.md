@@ -1,9 +1,10 @@
 ---
 title: "Worklog Tuần 1"
+menuTitle: "Week1"
 date: 2026-09-28
 weight: 1
 chapter: false
-pre: " <b> 1.1. </b> "
+pre: " <b> 1.1 </b> "
 ---
 
 ## AWS Free Tier và quản lý chi phí

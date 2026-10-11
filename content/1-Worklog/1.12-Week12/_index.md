@@ -1,9 +1,10 @@
 ---
 title: "Week 12 Worklog"
+menuTitle: "Week12"
 date: 2024-01-01
 weight: 12
 chapter: false
-pre: " <b> 1.12. </b> "
+pre: " <b> 1.12 </b> "
 ---
 
 ### Week 12 Objectives:

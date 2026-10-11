@@ -1,9 +1,10 @@
 ---
 title: "Worklog Tuần 6"
+menuTitle: "Week6"
 date: 2024-01-01
 weight: 6
 chapter: false
-pre: " <b> 1.6. </b> "
+pre: " <b> 1.6 </b> "
 ---
 
 ### Mục tiêu tuần 6:
