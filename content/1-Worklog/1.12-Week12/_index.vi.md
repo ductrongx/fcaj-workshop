@@ -1,5 +1,5 @@
 ---
-title: "Worklog Tuần 12"
+title: "Week12"
 menuTitle: "Week12"
 date: 2024-01-01
 weight: 12
