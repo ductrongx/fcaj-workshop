@@ -7,13 +7,13 @@ chapter: false
 pre: " <b> 1.2 </b> "
 ---
 
-## IAM, policies and temporary application permissions
+## IAM, policies and AWS CLI practice
 
 **Week 2 period:** 05/10/2026–11/10/2026. **Report updated:** 11/10/2026.
 
-**Learning scope:** Section 1 — Explore AWS Services; Region/AZ review, user/group/role sections of `000002`, and application role concepts/configuration related to `000048`.
+**Learning scope:** Section 1 — Explore AWS Services; Region/AZ review, user/group/role sections of `000002`, AWS CLI lab `000011`, and application role concepts/configuration related to `000048`. CloudShell `000049` is on hold due to an error.
 
-This week focused on distinguishing identities from permissions, practicing IAM in the Happy Path account, and simulating narrowly scoped policies. IAM objects were created, an AdminRole session was used, and cleanup was reported. The EC2 application role remains configured but has not been verified through a real S3 application request.
+This week focused on distinguishing identities from permissions, practicing IAM in the Happy Path account, and simulating narrowly scoped policies. IAM objects were created, an AdminRole session was used, and the learner confirmed completion of `000011`. Screenshots support profiles, EC2 reads, S3, IAM, SSH and SNS email delivery; application role `000048` still awaits EC2-to-S3 verification.
 
 ### Week 2 objectives
 
@@ -23,19 +23,23 @@ This week focused on distinguishing identities from permissions, practicing IAM 
 | Practice users/groups and Switch Role. | Create IAM objects, sign in and confirm an active AdminRole session; record cleanup status. |
 | Read policies and apply least privilege. | Explain Effect/Action/Resource/Condition; simulate Allow, implicit deny and explicit deny. |
 | Understand application roles. | Distinguish trust/permissions policies, explain temporary credentials and configure a narrowly scoped EC2 S3 read role. |
-| Continue CLI and live permission testing. | Identify caller/Region and compare results before/after a small permission change; no results are recorded in the three notes summarized here. |
+| Continue CLI and live permission testing. | Check profiles/Region and read/manage resources; separately verify the caller and a before/after test of one narrow permission. |
 
 ### Tasks for the week
 
-The table is a **content allocation based on Monday–Wednesday notes**, not confirmation that tasks took place on the scheduled dates. Actual dates have not been recorded; the update date is not substituted for practice dates.
+The table is a **content allocation based on all seven week 2 notes**, not confirmation that tasks took place on the scheduled dates. Actual dates have not been recorded; the update date is not substituted for practice dates.
 
 | Day / scheduled date | Task | Start date | Completion date | Status | Reference |
 | --- | --- | --- | --- | --- | --- |
-| Monday — 05/10 | Review Region/AZ; create AdminGroup, AdminUser, AdminRole, OperatorUser; Switch Role and IAM cleanup. | Not recorded | Not recorded | Completed creation/role switching scope; cleanup reported in practice notes. | [000002 — IAM](https://000002.awsstudygroup.com/vi/) |
-| Tuesday — 06/10 | Read policies and least privilege; simulate S3 permissions and SecureTransport. | Not recorded | Not recorded | Completed simulation scope according to learner confirmation. | [IAM Policy Simulator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html) |
-| Wednesday — 07/10 | Study application roles; configure EC2 trust and S3 photos read permissions. | Not recorded | — | Configured — pending application verification. | [000048 — Application roles](https://000048.awsstudygroup.com/) |
+| Monday — 05/10/2026 | Review Region/AZ; create AdminGroup, AdminUser, AdminRole, OperatorUser; Switch Role and IAM cleanup. | Not recorded | Not recorded | Completed creation/role switching scope; cleanup reported in practice notes. | [000002 — IAM](https://000002.awsstudygroup.com/vi/) |
+| Tuesday — 06/10/2026 | Read policies and least privilege; simulate S3 permissions and SecureTransport. | Not recorded | Not recorded | Completed simulation scope according to learner confirmation. | [IAM Policy Simulator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html) |
+| Wednesday — 07/10/2026 | Study application roles; configure EC2 trust and S3 photos read permissions. | Not recorded | — | Configured — pending application verification. | [000048 — Application roles](https://000048.awsstudygroup.com/) |
+| Thursday — 08/10/2026 | Local CLI, profiles and Region. | Not recorded | Not recorded | Completed according to learner confirmation and screenshots. | [000011 — Installation](https://000011.awsstudygroup.com/vi/3-installcli/) |
+| Friday — 09/10/2026 | EC2 reads, S3 and SNS. | Not recorded | Not recorded | Completed; EC2 output, S3 cleanup and SNS email available. | [Resources](https://000011.awsstudygroup.com/vi/4-infras/), [S3](https://000011.awsstudygroup.com/vi/5-s3/), [SNS](https://000011.awsstudygroup.com/vi/6-sns/) |
+| Saturday — 10/10/2026 | IAM, VPC/Internet Gateway, EC2 and CLI cleanup. | Not recorded | Not recorded | Lab completed according to learner confirmation; IAM CreateDate is 11/10/2026, not the scheduled date. | [IAM](https://000011.awsstudygroup.com/vi/7-iam/), [000011](https://000011.awsstudygroup.com/vi/) |
+| Sunday — 11/10/2026 | Review, consolidate notes/screenshots and update the report. | Not recorded | Not recorded | Performed according to learner confirmation; report updated 11/10/2026. | [000011](https://000011.awsstudygroup.com/vi/) |
 
-> **To be added — Actual dates:** Dates of studying, creating objects, running simulations and cleanup corresponding to the three notes.
+> **To be added — Actual dates:** Actual study, object creation, Simulator and cleanup dates for the seven notes. IAM CLI screenshots establish group/user creation on 11/10/2026; dates for the entire lab are not established.
 
 ### Week 2 achievements
 
@@ -46,9 +50,12 @@ The table is a **content allocation based on Monday–Wednesday notes**, not con
 | `000002` — Cleanup | Learner reported deleting both users, AdminGroup and AdminRole. | Performed; no post-deletion screenshots/logs checked. | Practice notes. |
 | Policies and least privilege | Simulated action/resource permissions, explicit deny and Condition. | Completed simulation scope. | Learner confirmation; screenshots/output pending. |
 | `000048` — Application role | Configured an EC2 role and S3 read policy using the example. | Configured — pending verification. | Learner confirmation; policy screenshots pending. |
-| CLI / API tests before–after | No results in Monday–Wednesday notes. | Practice not recorded. | None available. |
+| `000011` — AWS CLI | Learner confirmed completing the full lab; profile, EC2, S3, IAM, SSH and SNS email screenshots were reviewed. | Completed according to practice notes; verification limits below. | MC-07–MC-14; practice notes. |
+| `000049` — CloudShell | Environment creation blocked by account verification; used local CLI. | Blocked — on hold at the learner's request. | Error message in the conversation. |
+| API test before/after one narrow permission | No separate results using the same role/action/Region. | This criterion remains unverified. | None available. |
+| Review / report | Review confirmed by the learner; all seven notes consolidated into the bilingual report. | Performed; additional data pending. | Sunday note and this report. |
 
-These results do not establish completion of the full `000048` lab, a multi-AZ deployment or live CLI permission tests.
+Live APIs were practiced through CLI in `000011`; caller ARN and a separate before/after narrow-permission test remain missing. These results do not establish completion of the full `000048` lab or a multi-AZ deployment.
 
 ### Learning and lab details
 
@@ -101,9 +108,43 @@ According to Wednesday's note and learner confirmation, configured `fcaj-ec2-pho
 
 > **To be added — Application role:** Permissions/Trust relationships screenshots, actual names if different, inspection dates and role/instance profile retention or deletion status.
 
+#### `000011` — Introduction to AWS CLI
+
+**Program section:** Section 1 — Explore AWS Services. **Reference:** [BTC lab 000011](https://000011.awsstudygroup.com/vi/).
+
+**Knowledge:** Credentials authenticate requests; policies determine permissions. A profile does not grant permissions. Distinguished profile/Region/output/query, bucket/object, topic/subscription, IAM user/group and SSH connections.
+
+**Environment:** Windows PowerShell, Happy Path account. Screenshots show access keys from the shared credentials file, not aws login. Profiles are default/devops; devops shows ap-southeast-1, while default EC2 configuration and the table command use ap-southeast-2. CLI version and STS caller ARN are not available.
+
+**Main steps:** Configure profiles → read resources → S3/SNS → IAM → VPC/Internet Gateway and EC2 → check SSH and cleanup.
+
+| Check | Expected result | Observed result | Evidence |
+| --- | --- | --- | --- |
+| Profile/Region | Read configuration. | default/devops; Regions vary by profile/command as described above. | MC-07–MC-08. |
+| EC2 JSON/table | Return instance data. | DescribeInstances returns Happy Path resources; table command selects Sydney. | MC-08–MC-09. |
+| S3 | Create/upload/list/delete. | Changed name after BucketAlreadyExists; uploaded, listed and deleted hello.txt; deleted bucket, with the lab bucket absent from the final listing. | MC-10. |
+| SNS | Confirm subscription and receive a message. | Topic aws-cli in Sydney; confirmation email and received Hello email reviewed. MessageId is unavailable. | Email images reviewed; redacted version pending publication. |
+| IAM | Create objects and check membership. | dev and dev-1; get-group contains dev-1; CreateDate is 11/10/2026 UTC, also 11/10 in Asia/Bangkok. | MC-11–MC-12. |
+| Access key / VPC / Internet Gateway | Corresponding lab steps. | Completed according to whole-lab confirmation; separate configuration output unavailable. | Practice notes. |
+| EC2/SSH | Read state and connect. | Query returns running; SSH shows Amazon Linux 2023. | MC-13–MC-14. |
+
+**Completion scope:** Full `000011` according to learner confirmation; screenshots verify only their visible output. Missing images are not replaced with BTC samples, and SSH does not establish application role verification for `000048`.
+
+**Resources after practice:** S3 object/bucket cleanup is shown. IAM/network/EC2/SNS cleanup follows the learner's lab completion confirmation, without a post-cleanup inventory; no conclusion that every Region is clear.
+
+**Security lesson:** The S3 upload source is a .pem file. If it contains an actual SSH private key still in use, replace that key as appropriate; there is no evidence of unauthorized access. Use a test file without credentials next time.
+
+> **To be added — CLI/cleanup:** Version, caller ARN, missing practice dates, VPC/Internet Gateway configuration and post-cleanup inventory for IAM/access keys, SNS, EC2/volumes/IPs and networking.
+
+> **To be added — SNS evidence:** Hello email screenshot with email address and unsubscribe URL redacted. Email delivery has been checked and is no longer pending.
+
+#### `000049` — CloudShell: on hold
+
+Environment creation failed while account verification was in progress. At the learner's request, this is temporarily skipped and has not been retried; local CLI was used. CloudShell completion or error resolution is not claimed. [BTC lab](https://000049.awsstudygroup.com/vi/)
+
 ### Practice evidence
 
-Screenshots show capture-time state; capture dates have not been verified and they do not show post-cleanup state.
+Screenshots show capture-time state; capture dates are unverified. MC-10 includes S3 cleanup output; other images do not establish a post-cleanup inventory.
 
 **MC-01 — Studying AZ concepts in Module 01-01 — Introduction to AWS.**
 
@@ -133,6 +174,40 @@ Shows review before confirmation, not completed activation by itself; activation
 
 ![AdminRole session displaying two IAM users](/images/1-worklog/1.2-week2/switch_role.png)
 
+**MC-07 — default/devops profiles and devops Region ap-southeast-1.**
+
+![CLI configuration and profile list](/images/1-worklog/1.2-week2/aws_cli_config_profile.png)
+
+**MC-08 — Default Sydney configuration and EC2 JSON.**
+
+![CLI describe-instances returning JSON](/images/1-worklog/1.2-week2/aws_cli_get_descri_ec2.png)
+
+**MC-09 — EC2 table output in ap-southeast-2.**
+
+![EC2 information in table format](/images/1-worklog/1.2-week2/aws_cli_desci_table.png)
+
+**MC-10 — S3 object/bucket lifecycle and cleanup.**
+
+![CLI bucket creation, upload, listing and deletion](/images/1-worklog/1.2-week2/aws_cli_s3.png)
+
+The image shows a .pem filename, not key contents; see the CLI security lesson.
+
+**MC-11 — Created dev and dev-1; repeated group creation returns EntityAlreadyExists.**
+
+![CLI user and group creation](/images/1-worklog/1.2-week2/create_USER%20AND%20GROUP_CLI.png)
+
+**MC-12 — get-group confirms dev-1 belongs to dev.**
+
+![IAM group membership check](/images/1-worklog/1.2-week2/user_to_group_cli.png)
+
+**MC-13 — EC2 query returns running at inspection time.**
+
+![CLI EC2 state query](/images/1-worklog/1.2-week2/get_inspect_instanec2.png)
+
+**MC-14 — Successful SSH connection to Amazon Linux 2023.**
+
+![SSH session connected to EC2](/images/1-worklog/1.2-week2/ssh_ec2.png)
+
 ### Issues and follow-up actions
 
 | Observation | Verified cause / supported conclusion | Action / next step | Status |
@@ -140,6 +215,8 @@ Shows review before confirmation, not completed activation by itself; activation
 | IAM groups shows Feature unavailable. | UI requires Advanced features. | Activation reported, followed by group creation. | Resolved within lab scope. |
 | OperatorUser denied GetUser/GetLoginProfile. | Error states no identity-based policy allows these actions in the user session. | Switch Role; MC-06 confirms reading the users list in the role session. No separate retest of the two failed APIs is established. | Role session used; detailed retest unavailable. |
 | Builder ID sign-in works but root Authentication failed. | Invalid credentials versus disabled root sign-in remains undetermined. | Continue using authorized identities; inspect root credentials for the correct account. | Root unverified. |
+| CloudShell environment creation failed. | Account verification in progress message. | On hold; use local PowerShell. | Blocked — on hold. |
+| S3 BucketAlreadyExists / IAM EntityAlreadyExists. | Bucket name already used; dev already created. | Changed bucket name; checked existing group. | Practice continued. |
 
 ### Lessons learned and next steps
 
@@ -149,7 +226,7 @@ Shows review before confirmation, not completed activation by itself; activation
 
 | Priority | Next task | Completion criteria |
 | --- | --- | --- |
-| High | AWS CLI: sign-in, profiles, caller and Region. | Run identity/resource read commands, record output and distinguish authentication/permission/scope errors. |
+| High | Complete CLI and cleanup evidence. | Add caller/version and post-cleanup inventory; no need to repeat the completed lab. |
 | High | Test before/after adding one narrow permission. | Same identity, action and Region; record API results before/after. |
 | Medium | EC2/S3 in `000048`, scheduled for week 3. | Confirm credential source, read allowed objects, test outside scope and clean up. |
 | Medium | Complete evidence and week 1 carry-over checks. | Add dates, policy/cleanup and account security evidence; review Budgets, Support, Cost Explorer and inventory against the checklist. |
