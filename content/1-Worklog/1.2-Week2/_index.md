@@ -29,15 +29,15 @@ This week focused on distinguishing identities from permissions, practicing IAM 
 
 The table is a **content allocation based on all seven week 2 notes**, not confirmation that tasks took place on the scheduled dates. Actual dates have not been recorded; the update date is not substituted for practice dates.
 
-| Day / scheduled date | Task | Start date | Completion date | Status | Reference |
-| --- | --- | --- | --- | --- | --- |
-| Monday — 05/10/2026 | Review Region/AZ; create AdminGroup, AdminUser, AdminRole, OperatorUser; Switch Role and IAM cleanup. | Not recorded | Not recorded | Completed creation/role switching scope; cleanup reported in practice notes. | [000002 — IAM](https://000002.awsstudygroup.com/vi/) |
-| Tuesday — 06/10/2026 | Read policies and least privilege; simulate S3 permissions and SecureTransport. | Not recorded | Not recorded | Completed simulation scope according to learner confirmation. | [IAM Policy Simulator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html) |
-| Wednesday — 07/10/2026 | Study application roles; configure EC2 trust and S3 photos read permissions. | Not recorded | — | Configured — pending application verification. | [000048 — Application roles](https://000048.awsstudygroup.com/) |
-| Thursday — 08/10/2026 | Local CLI, profiles and Region. | Not recorded | Not recorded | Completed according to learner confirmation and screenshots. | [000011 — Installation](https://000011.awsstudygroup.com/vi/3-installcli/) |
-| Friday — 09/10/2026 | EC2 reads, S3 and SNS. | Not recorded | Not recorded | Completed; EC2 output, S3 cleanup and SNS email available. | [Resources](https://000011.awsstudygroup.com/vi/4-infras/), [S3](https://000011.awsstudygroup.com/vi/5-s3/), [SNS](https://000011.awsstudygroup.com/vi/6-sns/) |
-| Saturday — 10/10/2026 | IAM, VPC/Internet Gateway, EC2 and CLI cleanup. | Not recorded | Not recorded | Lab completed according to learner confirmation; IAM CreateDate is 11/10/2026, not the scheduled date. | [IAM](https://000011.awsstudygroup.com/vi/7-iam/), [000011](https://000011.awsstudygroup.com/vi/) |
-| Sunday — 11/10/2026 | Review, consolidate notes/screenshots and update the report. | Not recorded | Not recorded | Performed according to learner confirmation; report updated 11/10/2026. | [000011](https://000011.awsstudygroup.com/vi/) |
+| Day / scheduled date | Task | Status | Reference |
+| --- | --- | --- | --- |
+| Monday — 05/10/2026 | Review Region/AZ; create AdminGroup, AdminUser, AdminRole, OperatorUser; Switch Role and IAM cleanup. | Completed creation/role switching scope; cleanup reported in practice notes. | [000002 — IAM](https://000002.awsstudygroup.com/vi/) |
+| Tuesday — 06/10/2026 | Read policies and least privilege; simulate S3 permissions and SecureTransport. | Completed simulation scope according to learner confirmation. | [IAM Policy Simulator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html) |
+| Wednesday — 07/10/2026 | Study application roles; configure EC2 trust and S3 photos read permissions. | Configured — pending application verification. | [000048 — Application roles](https://000048.awsstudygroup.com/) |
+| Thursday — 08/10/2026 | Local CLI, profiles and Region. | Completed according to learner confirmation and screenshots. | [000011 — Installation](https://000011.awsstudygroup.com/vi/3-installcli/) |
+| Friday — 09/10/2026 | EC2 reads, S3 and SNS. | Completed; EC2 output, S3 cleanup and SNS email available. | [Resources](https://000011.awsstudygroup.com/vi/4-infras/), [S3](https://000011.awsstudygroup.com/vi/5-s3/), [SNS](https://000011.awsstudygroup.com/vi/6-sns/) |
+| Saturday — 10/10/2026 | IAM, VPC/Internet Gateway, EC2 and CLI cleanup. | Lab completed according to learner confirmation; IAM CreateDate is 11/10/2026, not the scheduled date. | [IAM](https://000011.awsstudygroup.com/vi/7-iam/), [000011](https://000011.awsstudygroup.com/vi/) |
+| Sunday — 11/10/2026 | Review, consolidate notes/screenshots and update the report. | Performed according to learner confirmation; report updated 11/10/2026. | [000011](https://000011.awsstudygroup.com/vi/) |
 
 > **To be added — Actual dates:** Actual study, object creation, Simulator and cleanup dates for the seven notes. IAM CLI screenshots establish group/user creation on 11/10/2026; dates for the entire lab are not established.
 

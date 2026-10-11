@@ -29,15 +29,15 @@ Tuần này tập trung phân biệt danh tính với quyền truy cập, thực
 
 Bảng dưới là **phân bổ nội dung theo 7 note tuần 2**, không xác nhận thao tác diễn ra đúng ngày trong lịch. Ngày thực tế chưa được ghi nhận; không dùng ngày cập nhật thay cho ngày thực hành.
 
-| Thứ / ngày phân bổ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Trạng thái | Nguồn tài liệu |
-| --- | --- | --- | --- | --- | --- |
-| Thứ Hai — 05/10/2026 | Ôn Region/AZ; tạo AdminGroup, AdminUser, AdminRole, OperatorUser; Switch Role và cleanup IAM. | Chưa ghi nhận | Chưa ghi nhận | Hoàn thành phạm vi tạo/chuyển role; cleanup theo ghi nhận thực hành. | [000002 — IAM](https://000002.awsstudygroup.com/vi/) |
-| Thứ Ba — 06/10/2026 | Đọc policy, least privilege; mô phỏng quyền S3 và SecureTransport. | Chưa ghi nhận | Chưa ghi nhận | Hoàn thành phạm vi mô phỏng theo xác nhận người học. | [IAM Policy Simulator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html) |
-| Thứ Tư — 07/10/2026 | Học role cho ứng dụng; cấu hình trust EC2 và quyền đọc photos trên S3. | Chưa ghi nhận | — | Đã cấu hình — chờ kiểm chứng luồng ứng dụng. | [000048 — Role cho ứng dụng](https://000048.awsstudygroup.com/) |
-| Thứ Năm — 08/10/2026 | CLI local, profiles và Region. | Chưa ghi nhận | Chưa ghi nhận | Hoàn thành theo xác nhận và ảnh. | [000011 — Cài đặt](https://000011.awsstudygroup.com/vi/3-installcli/) |
-| Thứ Sáu — 09/10/2026 | Đọc EC2, S3 và SNS. | Chưa ghi nhận | Chưa ghi nhận | Hoàn thành; có output EC2, cleanup S3 và email SNS. | [Tài nguyên](https://000011.awsstudygroup.com/vi/4-infras/), [S3](https://000011.awsstudygroup.com/vi/5-s3/), [SNS](https://000011.awsstudygroup.com/vi/6-sns/) |
-| Thứ Bảy — 10/10/2026 | IAM, VPC/Internet Gateway, EC2 và cleanup CLI. | Chưa ghi nhận | Chưa ghi nhận | Hoàn thành lab theo xác nhận; ảnh IAM ghi CreateDate ngày 11/10, không phải ngày phân bổ 10/10. | [IAM](https://000011.awsstudygroup.com/vi/7-iam/), [000011](https://000011.awsstudygroup.com/vi/) |
-| Chủ Nhật — 11/10/2026 | Ôn tập, tổng hợp note/ảnh và báo cáo. | Chưa ghi nhận | Chưa ghi nhận | Đã thực hiện theo xác nhận; báo cáo cập nhật 11/10/2026. | [000011](https://000011.awsstudygroup.com/vi/) |
+| Thứ / ngày phân bổ | Công việc | Trạng thái | Nguồn tài liệu |
+| --- | --- | --- | --- |
+| Thứ Hai — 05/10/2026 | Ôn Region/AZ; tạo AdminGroup, AdminUser, AdminRole, OperatorUser; Switch Role và cleanup IAM. | Hoàn thành phạm vi tạo/chuyển role; cleanup theo ghi nhận thực hành. | [000002 — IAM](https://000002.awsstudygroup.com/vi/) |
+| Thứ Ba — 06/10/2026 | Đọc policy, least privilege; mô phỏng quyền S3 và SecureTransport. | Hoàn thành phạm vi mô phỏng theo xác nhận người học. | [IAM Policy Simulator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html) |
+| Thứ Tư — 07/10/2026 | Học role cho ứng dụng; cấu hình trust EC2 và quyền đọc photos trên S3. | Đã cấu hình — chờ kiểm chứng luồng ứng dụng. | [000048 — Role cho ứng dụng](https://000048.awsstudygroup.com/) |
+| Thứ Năm — 08/10/2026 | CLI local, profiles và Region. | Hoàn thành theo xác nhận và ảnh. | [000011 — Cài đặt](https://000011.awsstudygroup.com/vi/3-installcli/) |
+| Thứ Sáu — 09/10/2026 | Đọc EC2, S3 và SNS. | Hoàn thành; có output EC2, cleanup S3 và email SNS. | [Tài nguyên](https://000011.awsstudygroup.com/vi/4-infras/), [S3](https://000011.awsstudygroup.com/vi/5-s3/), [SNS](https://000011.awsstudygroup.com/vi/6-sns/) |
+| Thứ Bảy — 10/10/2026 | IAM, VPC/Internet Gateway, EC2 và cleanup CLI. | Hoàn thành lab theo xác nhận; ảnh IAM ghi CreateDate ngày 11/10, không phải ngày phân bổ 10/10. | [IAM](https://000011.awsstudygroup.com/vi/7-iam/), [000011](https://000011.awsstudygroup.com/vi/) |
+| Chủ Nhật — 11/10/2026 | Ôn tập, tổng hợp note/ảnh và báo cáo. | Đã thực hiện theo xác nhận; báo cáo cập nhật 11/10/2026. | [000011](https://000011.awsstudygroup.com/vi/) |
 
 > **Cần bổ sung — Ngày thực hiện:** Ngày thực tế học, tạo đối tượng, chạy Simulator và cleanup cho các nội dung trong 7 note. Ảnh IAM CLI xác nhận tạo group/user ngày 11/10/2026; chưa xác định ngày toàn bộ lab.
 
